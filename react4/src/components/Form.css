@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+Form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    padding: 30px;  
+    gap: 15px;
+}
+label{
+    text-align: left;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.success{
+    color: green;
+    font-size: 25px;
+}
